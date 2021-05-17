@@ -4,6 +4,9 @@ setuptools>=26
 twine
 wheel>=0.29
 
+# tool for NLP
+nltk
+
 # data science
 numpy
 pandas
