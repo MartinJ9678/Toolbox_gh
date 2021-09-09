@@ -49,6 +49,6 @@ def NLP_preprocess(text,language='english',lemmatizer=False,stemmer=False,tags=F
     ### Stemmer activate
     if stemmer==True:
         stemmer = PorterStemmer()
-        stemmed = [stemmer.stem(word) for word in text]
+        stemmer = [stemmer.stem(word) for word in text]
         text = stemmer
-    return text
+    return " ".join(text)
